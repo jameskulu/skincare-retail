@@ -1,0 +1,81 @@
+.rent-orders-container .table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(163, 163, 163);
+    padding: 15px;
+    min-width: 1000px;
+  }
+  .rent-orders-container .img-thumbnail {
+    height: 90px;
+    object-fit: contain;
+    width: 80px;
+  }
+  .rent-orders-container .table .thead-light th {
+    background: white;
+  }
+  
+  .rent-orders-container .empty-div button:hover{
+    background-color: #59a896;
+    box-shadow: 2px 2px 1px #6bac9d;
+  
+  }
+  .rent-orders-container .table thead th {
+    border: none;
+  }
+  .rent-orders-container .table td,
+  .rent-orders-container .table th {
+    border: none;
+  }
+  
+  .rent-orders-container .text-uppercase {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+  }
+  /* .rent-orders-container .btn {
+    background: #ececec;
+    color: black;
+    font-weight: 900;
+    border-radius: 0px;
+  } */
+  
+  .rent-orders-container headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background: #8aaae5;
+    color: white;
+    margin-bottom: 70px;
+  }
+  .rent-orders-container headings h2{
+    color: white;
+  }
+  .rent-orders-container .table tbody + tbody {
+    border-top: 1px solid #dee2e6;
+  }
+  .rent-orders-container #price {
+    font-weight: 900;
+  }
+  .rent-orders-container #date {
+    font-weight: 600;
+  }
+  .rent-orders-container .table td:nth-child(2) p {
+    font-weight: 900;
+  }
+  
+  .rent-orders-container .empty-div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(175, 175, 175);
+    margin: 0 70px;
+  }
+  
+  .rent-orders-container .empty-div button {
+    margin-top: 10px;
+    color: white;
+    background: #8aaae5;
+  }

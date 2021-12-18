@@ -1,0 +1,90 @@
+.review-container{
+    width: 95%;
+}   
+
+.review-container .btn-review {
+    background: #8aaae5;
+    color: white;
+    margin: 20px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.review-container .border {
+    border-radius: 0;
+    width: 100%;
+}
+
+.review-container .review {
+    margin: 20px;
+}
+
+.review-container .review-field {
+    /* height: 100px; */
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.review-container .review-section {
+    width: 100%;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.review-container .review-box {
+    width: 100%;
+    margin: 20px;
+}
+.review-container .stars {
+    margin-left: 20px;
+}
+
+.review-container .user-img {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.review-container .rating-field {
+    margin: 20px;
+    width: 95%;
+    text-align: center;
+}
+
+.review-container .user-details {
+    margin: 10px;
+}
+.review-container .user-review {
+    margin: 20px;
+}
+
+.review-container .review-date {
+    margin: 15px;
+    font-style: normal;
+    font-weight: lighter;
+    color: grey;
+}
+
+.review-container .review-text{
+    width: 100%;
+}
+
+@media screen and (max-width:1071px){
+    .review-container .user-details {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .review-container .rating-field {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .review-container{
+        margin-top: 220px;
+    }
+}

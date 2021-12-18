@@ -1,0 +1,82 @@
+.order-container .img-thumbnail {
+    height: 90px;
+    width: 80px;
+    object-fit: contain;
+}
+.order-container .table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 15px;
+    min-width: 1000px;
+}
+.order-container .thead-light th {
+    background: white;
+}
+
+.order-container .empty-div button:hover{
+    background-color: #59a896;
+    box-shadow: 2px 2px 1px #6bac9d;
+
+}
+
+.order-container .cart-heading {
+    background: #8aaae5;
+    margin-bottom: 50px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-container .cart-title {
+    font-weight: regular;
+    margin: 20px;
+}
+
+.order-container thead th {
+    /* border: none; */
+}
+.order-container table td,
+.order-container table th {
+    border: none;
+    vertical-align: middle;
+}
+
+.order-container .table tbody + tbody {
+    border-top: 1px solid #dee2e6;
+}
+
+.order-container .text-uppercase {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.order-container .btn-Checkout {
+    color: white;
+    background: #8aaae5;
+    margin-top: 40px;
+}
+
+.order-container .fa-trash-alt {
+    color: red;
+}
+
+.order-container .empty-div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.order-container .empty-div button {
+    margin-top: 10px;
+}
+
+.order-container .proceed-checkout-div {
+    display: flex;
+    justify-content: flex-end;
+}

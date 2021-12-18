@@ -1,0 +1,194 @@
+.homepage .hero-section {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../../images/s.jpg);
+    background-size: cover;
+}
+
+.homepage .hero-section h3 {
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+}
+
+.homepage .hero-section p {
+    margin: 20px 0;
+    color: rgb(68, 68, 68);
+}
+
+.homepage .hero-section button {
+    /* height: 350px; */
+    padding: 8px 60px;
+    font-weight: bold;
+    color: white;
+    background-color: #f1bb3f;
+    outline: none;
+    border: none;
+}
+
+.outer-latest-released {
+    margin-top: 50px;
+}
+
+.outer-latest-released h3 {
+    text-align: center;
+}
+
+.outer-latest-released .latest-released {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.outer-latest-released .latest-released .single-latest-released {
+    width: 100%;
+    padding: 1rem;
+    /* border: 0.5px solid rgb(235, 235, 235); */
+}
+
+.outer-latest-released .latest-released .single-latest-released img {
+    object-fit: cover;
+    border-radius: 5px;
+    height: 200px;
+    width: 100%;
+    border: 0.5px solid rgb(235, 235, 235);
+}
+
+.outer-latest-released .latest-released .single-latest-released img:hover {
+    opacity: 0.95;
+}
+
+.outer-latest-released .latest-released .single-latest-released .movie-info {
+    padding: 20px 0;
+}
+
+.outer-latest-released
+    .latest-released
+    .single-latest-released
+    .movie-info
+    h2:hover {
+    text-decoration: underline;
+}
+
+.outer-latest-released
+    .latest-released
+    .single-latest-released
+    .movie-info
+    span {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.outer-latest-released .latest-released .single-latest-released .movie-info h6 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.homepage .banner {
+    display: flex;
+}
+
+.homepage .banner .left-banner {
+    flex: 1;
+}
+
+.homepage .banner .left-banner img {
+    height: 500px;
+}
+
+.homepage .banner .right-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    /* width: 100%; */
+}
+
+.homepage .banner .right-banner h3 {
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+}
+
+.homepage .banner .right-banner p {
+    margin: 20px 0;
+    color: rgb(68, 68, 68);
+}
+
+.homepage .banner .right-banner button {
+    /* height: 350px; */
+    padding: 8px 60px;
+    font-weight: bold;
+    color: white;
+    background-color: #f1bb3f;
+    outline: none;
+    border: none;
+}
+
+/* Testomonial */
+.testomonial {
+    height: 100%;
+    width: 92%;
+    margin: 60px auto 0 auto;
+}
+.testomonial h2 {
+    text-align: center;
+}
+.testomonial .inner-testomonial {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+.testomonial .inner-testomonial .single-testomonial {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 35px;
+    box-shadow: 0 23.1px 11.4px -17px rgba(0, 0, 0, 0.074),
+        0 40px 91px -17px rgba(0, 0, 0, 0.14);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+.testomonial .inner-testomonial .single-testomonial:hover {
+    transform: translateY(-10px);
+}
+.testomonial .inner-testomonial .single-testomonial img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.testomonial .inner-testomonial .single-testomonial h3 {
+    font-size: 25px;
+}
+.testomonial .inner-testomonial .single-testomonial span {
+    margin-bottom: 20px;
+    color: var(--description-color);
+}
+.testomonial .inner-testomonial .single-testomonial p {
+    margin-bottom: 10px;
+    color: var(--white-color);
+}
+
+@media (max-width: 930px) {
+    .homepage .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepage .banner .right-banner {
+        margin-top: 30px;
+    }
+    .homepage .banner .right-banner h3 {
+        font-size: 19px;
+    }
+    .testomonial .inner-testomonial {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,91 @@
+.profile-container heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    height: 120px;
+    font-size: 26px;
+    color: white;
+  }
+  .profile-container .img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+  }
+  .profile-container .img img {
+    object-fit: cover;
+  }
+  .profile-container .edit-btn {
+    width: fit-content;
+    position: relative;
+  }
+  .profile-container .row {
+    display: flex;
+    justify-content: center;
+  }
+  .profile-container #updatebtn {
+    width: 100%;
+  }
+  .profile-container .name-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .profile-container .name-row div {
+    display: flex;
+  }
+  .profile-container .n1,
+  .profile-container .n2 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .profile-container .n1 p,
+  .profile-container .n2 p {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .profile-container .information {
+    padding: 10px;
+  }
+  .profile-container .a p {
+    font-size: clamp(1rem, 1vw, 2rem);
+  }
+  .profile-container .a,
+  .profile-container .b,
+  .profile-container .c,
+  .profile-container .d,
+  .profile-container .e,
+  .profile-container .f,
+  .profile-container .l {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile-container label {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .profile-container #profilebtn {
+    background: #8aaae5;
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+  .profile-container #profilebtn:hover {
+    background-color: #59a896;
+      box-shadow: 2px 2px 1px #6bac9d;
+  }
+  
+  .profile-container #pswrdbtn {
+    
+    /* background-color: #59a896; */
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+  .profile-container #pswrdbtn:hover {
+    background: #8b8d8f;
+      box-shadow: 2px 2px 1px #8b8d8f;
+  }

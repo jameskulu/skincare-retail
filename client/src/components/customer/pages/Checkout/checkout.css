@@ -1,0 +1,194 @@
+.checkout-container .table {
+    /* width: 90%; */
+    margin: auto;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 15px;
+    min-width: 1000px;
+}
+.checkout-container .img-thumbnail {
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+.checkout-container .table .thead-light th {
+    background: white;
+}
+
+.checkout-container .table thead th {
+    border: none;
+}
+.checkout-container .table td,
+.checkout-container .table th {
+    border: none;
+    vertical-align: middle;
+}
+.checkout-container td > p {
+    font-weight: 600;
+}
+.checkout-container #order-heading {
+    margin-left: 60px;
+}
+.checkout-container .text-uppercase {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.checkout-container heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background: #8aaae5;
+    color: white;
+    margin-bottom: 70px;
+}
+.checkout-container .table tbody + tbody {
+    border-top: 1px solid #dee2e6;
+}
+.checkout-container #price {
+    font-weight: 900;
+}
+.checkout-container #date {
+    font-weight: 600;
+}
+
+.checkout-container #pic {
+    width: 150px;
+}
+.checkout-container #pic img {
+    border: none;
+}
+.checkout-container #topic {
+    padding-left: 40px;
+}
+.checkout-container .table .thead-light th {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+.checkout-container .Buttom {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90vw;
+
+    flex-wrap: wrap !important;
+}
+.checkout-container .shipping-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.checkout-container .form-row {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 35px;
+    height: 100%;
+    /* width: 450px; */
+    /* margin-left: 10px; */
+}
+.checkout-container .billing-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+.checkout-container .terms {
+    display: flex;
+    margin: 15px 0;
+}
+.checkout-container .terms p {
+    margin-left: 15px;
+}
+.checkout-container .Buttom button {
+    border: 1px solid #8aaae5;
+    outline: none;
+    color: #8aaae5;
+    background: white;
+    border-radius: 0;
+}
+.checkout-container .form-group input,
+.checkout-container .form-control {
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 0;
+    color: #8b8b8b;
+}
+.checkout-container .billingpart {
+    height: 100%;
+    /* width: 450px; */
+    margin: auto;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 35px;
+    /* margin-right: 10px; */
+}
+.checkout-container .form-row h3 {
+    font-weight: 900;
+    font-size: 18px;
+}
+.checkout-container .billingpart h2 {
+    font-weight: bolder;
+    font-size: 22px;
+}
+.checkout-container .billing button {
+    color: white;
+    background: #68aba7;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+}
+.checkout-container .billingpart hr {
+    height: 0.1px;
+    background: #000;
+}
+.checkout-container .shipping-info p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.checkout-complete-container {
+    height: 100%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(175, 175, 175);
+    margin: 40px 70px;
+}
+.checkout-complete-container button {
+    margin-top: 30px;
+    color: white;
+    background: #8aaae5;
+}
+.checkout-complete-container button:hover {
+    color: white;
+}
+@media screen and (max-width: 1087px) {
+    .checkout-container .checkout-cart-table{
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .checkout-container .Buttom {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkout-container .shipping-info {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .checkout-container .form-row {
+        margin-top: 50px;
+    }
+    .checkout-container .billingpart {
+        width: 100%;
+        margin-top: 50px;
+    }
+}

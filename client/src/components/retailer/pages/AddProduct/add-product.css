@@ -1,0 +1,35 @@
+.add-item-container .add-item {
+    background: #8aaae5;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-item-container .add-item-text {
+    font-weight: lighter;
+    margin: 20px;
+    font-size: xx-large;
+}
+
+.add-item-container button:hover{
+    background-color: #59a896;
+    box-shadow: 2px 2px 1px #6bac9d;
+
+}
+
+.add-item-container .edit {
+    background: #8aaae5;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.add-item-container .form-title {
+    font-weight: bold;
+}
+
+.add-item-container .form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

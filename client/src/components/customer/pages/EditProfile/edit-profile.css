@@ -1,0 +1,69 @@
+.edit-profile-container heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    height: 120px;
+    font-size: 26px;
+    color: white;
+}
+.edit-profile-container .img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+}
+.edit-profile-container .img img {
+    object-fit: cover;
+}
+.edit-profile-container .row {
+    display: flex;
+    justify-content: center;
+}
+.edit-profile-container #updatebtn {
+    background: #82a0d8;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.edit-profile-container #updatebtn:hover {
+    background-color: #59a896;
+    box-shadow: 2px 2px 1px #6bac9d;
+}
+
+.edit-profile-container .edit-btn {
+    width: fit-content;
+    position: relative;
+}
+.edit-profile-container .butn {
+    position: absolute;
+    top: 78%;
+    left: 76%;
+    background-color: var(--bg);
+    color: white;
+    font-size: 16px;
+    padding: 3px 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 80%;
+    outline: none;
+}
+.edit-profile-container i {
+    font-size: 10px;
+}
+.edit-profile-container label {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.edit-profile-container .edit-profile-label {
+    cursor: pointer;
+    padding: 28px 10px;
+    color: rgb(24, 24, 24);
+    background: rgb(201, 201, 201);
+    border-radius: 50%;
+}
+
+.edit-profile-container .edit-profile-input {
+    display: none;
+}

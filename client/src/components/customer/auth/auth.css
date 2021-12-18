@@ -1,0 +1,49 @@
+.auth-container{
+    background-image: url('../../../images/l.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    min-height: 70vh;
+}
+
+.auth-container h1{
+    text-align: center;
+}
+
+.auth-container form{
+    margin: 70px;
+    width: 500px;
+    background: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.auth-container form button{
+    width: 100%;
+    padding: 17px 40px;
+    font-size: 20px;
+    background-color: #8aaae5;
+    outline: none;
+    border: none;
+    color: #f0f0f0;
+}
+.verify-email{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgb(179, 179, 179);
+}
+.verify-email button{
+    margin-top: 20px;
+    background-color: #8aaae5;
+    padding: 12px 40px;
+    font-size: 20px;
+    background-color: #8aaae5;
+    outline: none;
+    border: none;
+    color: #f0f0f0;
+}

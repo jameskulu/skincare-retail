@@ -1,0 +1,92 @@
+.view-items-container .table {
+    width: 100%;
+    /* margin: 70px auto 0 auto; */
+    padding: 15px;
+    border: 1px solid rgb(163, 163, 163);
+    min-width: 1000px;
+}
+
+.view-items-container .table a:hover {
+    text-decoration: none;
+}
+
+.view-items-container .empty-div button:hover{
+    background-color: #59a896;
+    box-shadow: 2px 2px 1px #6bac9d;
+
+}
+
+.view-items-container .img-thumbnail {
+    height: 90px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.view-items-container .table thead th {
+    border: none;
+}
+.view-items-container .table td,
+.view-items-container .table th {
+    vertical-align:middle;
+}
+
+.view-items-container .text-uppercase {
+    font-size: 20px;
+    font-weight: 900;
+}
+.view-items-container .btn {
+    background: #ececec;
+    color: black;
+    font-weight: 900;
+    border-radius: 0px;
+}
+
+.view-items-container .table tbody + tbody {
+    border-top: 1px solid #dee2e6;
+}
+.view-items-container #price {
+    font-weight: 900;
+}
+.view-items-container #date {
+    font-weight: 600;
+}
+
+.view-items-container .table td:nth-child(2) p {
+    font-weight: 900;
+}
+
+.view-items-container headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background: #8aaae5;
+}
+
+.view-items-container headings h2 {
+    color: white;
+}
+.view-items-container #icondel i {
+    color: #f13333;
+    cursor: pointer;
+}
+.view-items-container #iconedit i {
+    color: #648cd7;
+    cursor: pointer;
+}
+
+.view-items-container .empty-div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(175, 175, 175);
+    margin: 70px 70px 20px 70px;
+}
+
+.view-items-container .empty-div button {
+    margin-top: 10px;
+    color: white;
+    background: #8aaae5;
+}
